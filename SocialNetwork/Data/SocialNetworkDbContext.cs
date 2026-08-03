@@ -5,7 +5,7 @@ namespace SocialNetwork.Data
 {
     public class SocialNetworkDbContext : DbContext
     {
-        private const string ConnectionString = @"Server=SIMEON\SQLEXPRESS;Database=SocialNetworkDb;Trusted_Connection=True;Encrypt=False";
+        private const string ConnectionString = "";
 
         public DbSet<User> Users { get; set; }
 
